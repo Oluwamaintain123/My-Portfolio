@@ -177,6 +177,7 @@
 
     footer{
         flex-direction: column;
+        overflow: hidden;
 
         & .footer_1{
             width: 100%;
