@@ -177,7 +177,6 @@
 
     footer{
         flex-direction: column;
-        overflow: hidden;
 
         & .footer_1{
             width: 100%;
@@ -250,6 +249,306 @@
     }
 }
 
+@media (max-width: 720px) {
+    
+    /* ===HOME=== */
+
+    .home{
+        padding: 3em 2em;
+    }
+
+    /* ===HOME=== */
+
+    .about{
+        padding: 3em 2em;
+    }
+
+    /* ===RESUME=== */
+
+    .resume{
+        padding: 3em 2em;
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+    /* ===SERVICES=== */
+
+    .service{
+        padding: 3em 2em;
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+    /* ===SKILLS=== */
+
+    .skill{
+        padding: 3em 2em;
+    }
+
+    /* ===BLOG=== */
+
+    .project{
+        padding: 3em 2em;
+    }
+
+    /* ===BLOG=== */
+
+    .blog{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+    }
+
+    /* ===FREELANCE=== */
+
+    .freelance{
+        padding: 3em 2em;
+    }
+
+    /* ===CONTACT=== */
+
+    .contact{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+
+        & .contacts{
+            flex-direction: column;
+            
+            & .contact1{
+                width: 100%;
+
+                & a{
+                    font-size: 1.3em;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    /* ===FOOTER=== */
+
+    footer{
+        padding: 3em 2em;
+
+        & .abouts{
+
+            & .form{
+
+                & form{
+                    
+                    & input:first-child{
+                        width: 27em;
+                        height: 2.6em;
+                    }
+
+                    & input:last-child{
+                        height: 2.6em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    
+    /* ===HOME=== */
+
+    .home{
+        padding: 3em 2em;
+    }
+
+    /* ===ABOUT=== */
+
+    .about{
+        padding: 3em 2em;
+    }
+
+    /* ===RESUME=== */
+
+    .resume{
+        padding: 3em 2em;
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+    /* ===SERVICES=== */
+
+    .service{
+        padding: 3em 2em;
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+    /* ===SKILLS=== */
+
+    .skill{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+    }
+
+    /* ===PROJECTS */
+
+    .project{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+    }
+
+    /* ===BLOG=== */
+
+    .blog{
+        padding: 3em 2em;
+    }
+
+    /* ===FREELANCE=== */
+
+    .freelance{
+        padding: 3em 2em;
+
+        & .free{
+            width: 100%;
+        }
+    }
+
+    /* ===CONTACT=== */
+
+    .contact{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+
+        & .contacts{
+            flex-direction: column;
+
+            & .contact1{
+                width: 100%;
+
+                & a{
+                    font-size: 1.3em;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    /* ===FOOTER=== */
+
+    footer{
+        padding: 3em 2em;
+    }
+}
+
+@media (max-width: 520px) {
+    
+    .home{
+        padding: 3em 2em;
+    }
+
+    .about{
+        padding: 3em 2em;
+    }
+
+    .resume{
+        padding: 3em 2em;
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+    .service{
+        padding: 3em 2em;
+
+        & .para{
+            width: 100%;
+        }
+    }
+
+    & .skill{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+    }
+
+    .project{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+    }
+
+    .blog{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+
+        & .blogs{
+
+            & .blog1{
+                width: 440px;
+
+                & .links{
+                    gap: 17em;
+                }
+            }
+        }
+    }
+
+    .freelance{
+        padding: 3em 2em;
+
+        & .free{
+            width: 100%;
+        }
+    }
+
+    .contact{
+        padding: 3em 2em;
+
+        & .cont{
+            width: 100%;
+        }
+
+        & .contacts{
+            flex-direction: column;
+
+            & .contact1{
+                width: 100%;
+            }
+        }
+    }
+
+    footer{
+        padding: 3em 2em;
+    }
+}
+
 @media (max-width: 390px) {
     
     /* ===HOME=== */
@@ -295,6 +594,16 @@
         & .para{
             width: 100%;
         }
+
+        & .services{
+
+            & .services1{
+                
+                & .serv{
+                    width: 360px;
+                }
+            }
+        }
     }
 
     /* ===SKILLS=== */
@@ -309,6 +618,13 @@
                 & .leve1{
                     gap: 9.3em;
                 }
+
+                & .leve2{
+                    
+                    & progress{
+                        width: 370px;
+                    }
+                }
             }
         }
     }
@@ -317,6 +633,13 @@
 
     .project{
         padding: 3em 2em;
+
+        & .projects{
+
+            & .proj1{
+                width: 370px;
+            }
+        }
     }
 
     /* ===BLOG=== */
@@ -327,10 +650,10 @@
         & .blogs{
 
             .blog1{
-                width: 420px;
+                width: 380px;
 
                 & .links{
-                    gap: 16em;
+                    gap: 13.5em;
                 }
             }
         }
@@ -377,12 +700,22 @@
 
     footer{
         padding: 3em 2em;
+
+        & .abouts{
+
+            & .form{
+
+                & form{
+                    
+                    & input:first-child{
+                        width: 18em;
+                    }
+
+                    & input:last-child{
+                        width: 7em;
+                    }
+                }
+            }
+        }
     }
 }
-
-
-
-
-/* @media (max-width: 1251px) {
-    
-} */
